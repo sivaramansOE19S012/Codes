@@ -1,0 +1,17 @@
+Requird Inputs to activae Genetic Algorithm
+
+
+X 					= input vectors in np.array 
+Y 					= output vectors in np.array
+population_size 			= number of data you have
+selection_size  			= As our wish - (subject to optimazation)
+max_generations 			= As our wish (based on convergence)
+probability_of_individual_mutating 	= As of our wish((subject to optimization) #say 0.1
+probability_of_gene_mutating 		= As of our wish((subject to optimization) # say 0.25
+Acc					= expected Co-efficient of determination(subject to selection)
+
+Outputs:
+
+ans['COD'] 			= Coefficient of determination
+ans['error']			= Mean Square Error
+ans['coeff']			= Parameters
